@@ -23,6 +23,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  background: var(--body);
 }
 
 .container {
@@ -30,4 +31,59 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+.flex {
+  display: flex;
+}
+
+}
+/* -------------------------------nav--------------------- */
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__left {
+  display: flex;
+  column-gap: 148px;
+  align-items: center;
+}
+.nav__list {
+  
+}
+
+.nav__link {
+  color: var(--text);
+  padding: 31px 22px;
+  display: block;
+}
+
+.nav__link {
+  color: white;
+}
+
+.nav__right {
+  align-items: center;
+  color: white;
+   /* width: 102px;
+  height: 41px;
+  border-radius: 6px;
+  bottom: 12px;
+  color: var(--primary); */
+}
+
+.nav__right select {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.nav__btn {
+  margin-left: 31px;
+}
+
+.nav__right select option {
+  background: var(--body);
 }
